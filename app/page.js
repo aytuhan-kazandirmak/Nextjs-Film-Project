@@ -1,7 +1,8 @@
+import HomeContainer from "@/containers/home";
 import React from "react";
 
 const Home = () => {
-  return <div>Home sayfası</div>;
+  return <HomeContainer />;
 };
 
 export default Home;
