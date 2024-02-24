@@ -9,7 +9,7 @@ const HomeContainer = ({ selectedCategory }) => {
   const category = Genres.genres.find(
     (genre) => `${genre.id}` === selectedCategory.id
   );
-  console.log("category", category?.name);
+
   return (
     <div>
       <FeaturedMovie movie={Movies.results[0]} />
