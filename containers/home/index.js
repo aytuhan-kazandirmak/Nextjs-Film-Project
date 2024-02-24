@@ -5,6 +5,7 @@ import Movies from "../../mocks/movies.json";
 import Genres from "../../mocks/genres.json";
 import Categories from "@/components/categories";
 import MoviesSection from "@/components/movie-section";
+
 const HomeContainer = ({ selectedCategory }) => {
   const category = Genres.genres.find(
     (genre) => `${genre.id}` === selectedCategory.id

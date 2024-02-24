@@ -1,7 +1,6 @@
 import HomeContainer from "@/containers/home";
 import React from "react";
 import Movies from "../../mocks/movies.json";
-import { resolve } from "styled-jsx/css";
 async function delay(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
