@@ -4,7 +4,6 @@ import Image from "next/image";
 import { FaPlus } from "react-icons/fa";
 import styles from "./styles.module.css";
 const FeaturedMovie = ({ movie = {}, isCompact = true }) => {
-  console.log(movie);
   return (
     <div className={styles.movieWrapper}>
       <h1 className={styles.movieTitle}>{movie.title}</h1>

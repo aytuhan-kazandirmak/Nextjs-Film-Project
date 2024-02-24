@@ -4,7 +4,6 @@ import Link from "next/link";
 import styles from "./styles.module.css";
 
 function Categories({ categories }) {
-  console.log(categories);
   return (
     <div className={styles.categories}>
       {categories.map((category) => (

@@ -10,7 +10,7 @@ const MoviePage = ({ params }) => {
   if (!movieDetail) {
     notFound();
   }
-  console.log(params);
+
   return <MovieContainer movie={movieDetail} />;
 };
 
